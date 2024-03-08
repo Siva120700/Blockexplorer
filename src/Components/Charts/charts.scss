@@ -1,0 +1,12 @@
+/* charts.scss */
+.Container {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+
+    /* Dark mode styles */
+    &.dark-mode {
+        background-color: black;
+        color: white;
+    }
+}

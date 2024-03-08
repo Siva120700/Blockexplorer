@@ -1,0 +1,26 @@
+{
+    "apiVersion": "2023-04-25",
+    "requestId": "65e81129c6f56c5918998ec9",
+    "context": "yourExampleString",
+    "data": {
+      "item": {
+        "hash": "095380390c53c74a0d4778084b1d2d75fd64dfeb24364b6d68f242ac33ef7f1f",
+        "height": 3182324,
+        "previousBlockHash": "365eba5ebc9a4c461ca7b65764ea71379b562e772bb12591f1787de3eb9672c0",
+        "timestamp": 1709707315,
+        "transactionsCount": 2,
+        "blockchainSpecific": {
+          "bits": "503429524",
+          "chainwork": "00000000000000000000000000000000000000000000000000c3a275a934a6c9",
+          "difficulty": "0.002264570377463642",
+          "merkleRoot": "59b704cfee7f512290b4e1a01defd7a60762d8e03bf98a67d75c9aa3b12c74c3",
+          "nonce": "1446183744",
+          "size": 599,
+          "strippedSize": 389,
+          "version": 536870912,
+          "versionHex": "20000000",
+          "weight": 1592
+        }
+      }
+    }
+  }

@@ -1,0 +1,66 @@
+// footer
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px; /* Set a base font size */
+}
+*{
+   margin: 0;
+   padding: 0;
+}
+.footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    
+    &.dark-mode {
+        background-color: rgb(10,10,10);
+
+
+        color: white;
+        .strong {
+            justify-content: space-between;
+            a {
+                text-decoration: none;
+                color: white;
+                justify-content: space-between;
+                margin: 1rem;
+            }
+        }
+        .lastf{
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            
+        }
+    }
+}
+.main{
+    justify-content: space-between;
+    display: flex;
+//     margin-top: 1rem;
+//     margin: 1.5rem;
+//     bottom: 0;
+}
+
+.strong{
+    justify-content: space-between;
+
+    a{
+        text-decoration: none;
+        color: black;
+        justify-content: space-between;
+        margin: 1rem;
+    }
+    
+}
+
+.lastf{
+    a{
+        text-decoration: none;
+        justify-content: flex-end;
+        color: black;
+    }
+}

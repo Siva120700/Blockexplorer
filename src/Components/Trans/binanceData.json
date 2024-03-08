@@ -1,0 +1,26 @@
+{
+    "apiVersion": "2023-04-25",
+    "requestId": "65e811e9c6f56c5918999b8b",
+    "context": "yourExampleString",
+    "data": {
+      "item": {
+        "hash": "0xdd9c3fe38479b4f51c484f05268724fc66c0c6b737000685633afa25ef996dfb",
+        "height": 38332087,
+        "previousBlockHash": "0x85f6f8f885654481f4c2076fe9f13e67b97167432cd6fe2339af979fee8f64fa",
+        "timestamp": 1709707750,
+        "transactionsCount": 19,
+        "blockchainSpecific": {
+          "difficulty": "2",
+          "extraData": "0xd88301030a846765746888676f312e32312e37856c696e757800000096d46a82f8b20fb860addbbcb7b6a15928d24c12c0132c2f5a805c472b76bbde562bd904ca664a9465954030cbd6a9db29b2f6ecd9c60b92ee1821b767cdb87340fc7ad6010a56bd24cd712777a34aae06077232ec5b645834c3fee961ce4ac0ebfe077a05b3646194f84c840248e6b5a09717a95c255bbcca7f763e4de7dfbcb6cbf7d9c28b63479d496f91a37c33ce81840248e6b6a085f6f8f885654481f4c2076fe9f13e67b97167432cd6fe2339af979fee8f64fa806e87353fc65353f4a35618f3e880d2c71f984b1b00c8c2b06108861d1808091b247c785fee9eabf0ba6f54531097e4a46940b2f5d3dc050553cb3b7876ba8cfc01",
+          "gasLimit": "50000000",
+          "gasUsed": "1565177",
+          "minedInSeconds": "3",
+          "nonce": "0x0000000000000000",
+          "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+          "size": 9814,
+          "totalDifficulty": "76459830",
+          "uncles": []
+        }
+      }
+    }
+  }

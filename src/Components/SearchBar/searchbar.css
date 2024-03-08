@@ -1,0 +1,47 @@
+/* searchbar.scss */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 0.1rem solid rgb(186, 209, 225);
+    border-radius: 2rem;
+    padding: 0.5rem;
+    width: 38rem;
+    height: 1.5rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+    margin-top: 0.8rem;
+}
+
+input {
+    flex: 1;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    padding-left: 1rem;
+    font-size: 0.7rem;
+}
+
+.search-icon {
+    color: white;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(0, 64, 255);
+    padding: 0.5rem;
+    border-radius: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .input-wrapper {
+        width: 90%;
+    }
+}

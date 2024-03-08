@@ -1,0 +1,42 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    color: black;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.footer .main {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.footer .strong {
+    text-align: center;
+}
+
+.footer .lastf {
+    text-align: right;
+}

@@ -1,0 +1,74 @@
+
+.navbarsection {
+    /* Common styles for navbarsection */
+    padding: 0.5rem;
+    font-size: 1rem;
+    height: 3rem; 
+
+    /* Light mode styles */
+    &.light-mode {
+        background-color: white;
+        color: black;
+
+        .link {
+            color: black; 
+        }
+    }
+
+    /* Dark mode styles */
+    &.dark-mode {
+        background-color: rgb(10,10,10);
+
+        color: white;
+
+        .link {
+            color: white; /* Adjust link color for dark mode */
+        }
+    }
+
+
+    .navbar-contc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navright {
+            margin-left: 1.5rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 1rem;
+
+            .link {
+                text-decoration: none;
+            }
+
+            .blue {
+                color: blue;
+            }
+        }
+
+        .navbar {
+            /* Add styles for the navbar button */
+            margin-right: 1rem;
+                margin-top: 1rem;
+            button {
+                margin-right: 1rem;
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    /* Media query for smaller screens */
+    @media screen and (max-width: 768px) {
+        .navbar-contc {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0.5rem 1rem;
+        }
+
+        .navright {
+            margin-left: 0;
+            margin-top: 0.5rem;
+        }
+    }
+}

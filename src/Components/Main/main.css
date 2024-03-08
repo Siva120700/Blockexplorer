@@ -1,0 +1,73 @@
+/* main.scss */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  place-items: center;
+  margin-top: 9.5rem;
+  background-color: white;
+  color: black;
+}
+
+.maintext {
+  margin-top: 8rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.searchbar {
+  margin: 1rem;
+  place-items: center;
+}
+
+.box {
+  margin: 1rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.box a {
+  display: block;
+}
+
+.icon {
+  border: 0.01rem solid rgb(151, 148, 148);
+  padding: 1rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  margin-top: -0.5rem;
+  color: white;
+  transition: transform 0.3s ease;
+}
+.icon:hover {
+  background-color: rgb(232, 232, 232);
+  transform: scale(0.9);
+}
+
+.full.dark-mode {
+  background-color: black;
+  padding-bottom: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 2rem;
+  }
+  .maintext {
+    font-size: 1.5rem;
+  }
+  .box {
+    margin: 0.5rem;
+  }
+  .icon {
+    width: 1rem;
+    height: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */

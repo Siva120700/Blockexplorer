@@ -1,0 +1,35 @@
+/* transaction.scss */
+/* Main container for the block table */
+.block-table-container {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+  /* Light mode styles */
+  /* Dark mode styles */
+  /* Table styles */
+}
+.block-table-container.light-mode {
+  background-color: #fff;
+  color: black;
+}
+.block-table-container.dark-mode {
+  background-color: black;
+  color: #fff;
+}
+.block-table-container.dark-mode th {
+  background-color: black;
+}
+.block-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+.block-table-container table th, .block-table-container table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+.block-table-container table th {
+  background-color: #f2f2f2;
+}/*# sourceMappingURL=transaction.css.map */

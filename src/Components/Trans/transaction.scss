@@ -1,0 +1,41 @@
+/* transaction.scss */
+
+/* Main container for the block table */
+.block-table-container {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+
+  /* Light mode styles */
+  &.light-mode {
+      background-color: #fff;
+      color: black;
+  }
+
+  /* Dark mode styles */
+  &.dark-mode {
+      background-color: black;
+      color: #fff;
+      th {
+          background-color: black;
+      }
+  }
+
+  /* Table styles */
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+
+      th, td {
+          border: 1px solid #ccc;
+          padding: 0.5rem;
+      }
+
+      th {
+          background-color: #f2f2f2;
+      }
+  }
+}

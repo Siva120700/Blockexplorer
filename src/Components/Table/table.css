@@ -1,0 +1,35 @@
+/* table.scss */
+/* Main container for the table */
+.container {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 1rem;
+  overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+}
+.container.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* Table layout */
+.table-layout {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border-radius: 1rem;
+}
+.table-layout th, .table-layout td {
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+.table-layout .title {
+  font-weight: bold;
+}
+
+/* Table rows */
+.rows:hover {
+  background-color: rgb(159, 189, 241);
+}/*# sourceMappingURL=table.css.map */

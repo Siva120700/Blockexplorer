@@ -1,0 +1,11 @@
+/* charts.scss */
+.Container {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  /* Dark mode styles */
+}
+.Container.dark-mode {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=charts.css.map */

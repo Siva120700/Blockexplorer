@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /* Set a base font size */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+}
+
+.secbar-content{
+  margin-top: 2rem;
+  margin-left: 4rem;
+  &.dark-mode{
+    background-color: rgb(10,10,10);
+
+    color: white;
+      .dropdown{
+        color: white;
+      }
+    
+  }
+}
+.blockchain-button {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.light {
+  margin-right: 10px; 
+  color: rgb(90, 88, 88);
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  background-color: transparent; 
+  border: none;
+  cursor: pointer;
+  color: #000; 
+}
+
+.arrow {
+  margin-left: 5px; // Adjust the spacing between the text and the arrow icon
+}
+.sim{
+  margin-left: 1.1rem;
+  margin-right: 1.1rem;
+}
+
+.icondrop{
+  margin-left: -4rem;
+  text-decoration: none;
+  display: flex;
+  margin-top: 0.5rem;
+  color: black;
+
+  &:hover{
+    background-color: lightblue;
+  }
+  
+}
+.dropdown-menu{
+  display: none;
+}
+.dropdown-menu.active{
+  display: block;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 5rem;
+  margin-left: 7rem;
+  border-radius: 1rem;
+  z-index: 1200;
+
+}
+.dark-mode{
+  .dropdown-menu.active{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  .icondrop{
+    color: white;
+  }
+
+  }
+}
