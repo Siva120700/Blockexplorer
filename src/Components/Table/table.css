@@ -6,7 +6,7 @@
   background-color: rgb(255, 255, 255);
   padding: 1rem;
   border-radius: 1rem;
-  overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+  overflow-x: auto;
 }
 .container.dark-mode {
   background-color: black;

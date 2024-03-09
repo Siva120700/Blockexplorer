@@ -22,7 +22,7 @@
         color: white;
 
         .link {
-            color: white; /* Adjust link color for dark mode */
+            color: white; 
         }
     }
 
@@ -48,12 +48,10 @@
         }
 
         .navbar {
-            /* Add styles for the navbar button */
-            margin-right: 1rem;
-                margin-top: 1rem;
+            
             button {
-                margin-right: 1rem;
-                margin-top: 1rem;
+                margin-right: 1.5rem;
+                margin-top: 1.5rem;
             }
         }
     }

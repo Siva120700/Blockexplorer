@@ -4,9 +4,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px; /* Set a base font size */
-    margin: 0; /* Remove default margins */
-    padding: 0; /* Remove default padding */
+    font-size: 16px; 
+    margin: 0; 
+    padding: 0; 
     background-color: rgb(250, 250, 250);
 }
 
@@ -16,7 +16,7 @@ body {
     background-color: rgb(255, 255, 255);
     margin-top: 2rem;
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex-wrap: wrap; 
     justify-content: space-between;
     align-items: center;
     margin-left: 2%;
@@ -26,7 +26,7 @@ body {
     .part {
         font-size: 0.7rem;
         font-weight: 700;
-        position: relative; /* Add position relative */
+        position: relative; 
     
         .cp {
             margin-top: 1rem;
@@ -44,7 +44,7 @@ body {
             content: "";
             position: absolute;
             top: 0;
-            right: -2rem; /* Adjust the position to fit your design */
+            right: -2rem; 
             bottom: 0;
             width: 1px;
             background-color: #e4eaeb;
@@ -64,9 +64,9 @@ body {
 
     // Responsive adjustments
     @media screen and (max-width: 768px) {
-        width: 100%; /* Take full width on smaller screens */
-        padding: 1rem; /* Adjust padding for smaller screens */
-        margin-left: 0; /* Remove left margin on smaller screens */
+        width: 100%; 
+        padding: 1rem; 
+        margin-left: 0; 
     }
 }
 

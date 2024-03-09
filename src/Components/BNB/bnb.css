@@ -40,7 +40,7 @@ body {
   content: "";
   position: absolute;
   top: 0;
-  right: -2rem; /* Adjust the position to fit your design */
+  right: -2rem;
   bottom: 0;
   width: 1px;
   background-color: #e4eaeb;
@@ -56,9 +56,9 @@ body {
 }
 @media screen and (max-width: 768px) {
   .maincontentbn {
-    width: 100%; /* Take full width on smaller screens */
-    padding: 1rem; /* Adjust padding for smaller screens */
-    margin-left: 0; /* Remove left margin on smaller screens */
+    width: 100%;
+    padding: 1rem;
+    margin-left: 0;
   }
 }
 

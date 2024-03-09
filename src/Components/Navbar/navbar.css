@@ -19,7 +19,7 @@
   color: white;
 }
 .navbarsection.dark-mode .link {
-  color: white; /* Adjust link color for dark mode */
+  color: white;
 }
 .navbarsection .navbar-contc {
   display: flex;
@@ -38,14 +38,9 @@
 .navbarsection .navbar-contc .navright .blue {
   color: blue;
 }
-.navbarsection .navbar-contc .navbar {
-  /* Add styles for the navbar button */
-  margin-right: 1rem;
-  margin-top: 1rem;
-}
 .navbarsection .navbar-contc .navbar button {
-  margin-right: 1rem;
-  margin-top: 1rem;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
 }
 @media screen and (max-width: 768px) {
   .navbarsection .navbar-contc {
