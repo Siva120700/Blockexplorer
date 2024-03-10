@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './app.css';
 import Navbar from '../src/Components/Navbar/Navbar';
 import Main from '../src/Components/Main/Main';
@@ -15,8 +15,8 @@ import { ThemeProvider } from '../src/Components/Themecontext/Theme';
 const App = () => {
   
   return (
-    <div>
-    <Router basename='/Blockexplorer'>
+
+    <Router>
       <ThemeProvider> 
       <div className="App">
         <Navbar />
@@ -33,7 +33,7 @@ const App = () => {
       </div>
     </ThemeProvider>
     </Router>
-    </div>
+
   );
 }
 
