@@ -15,7 +15,8 @@ import { ThemeProvider } from '../src/Components/Themecontext/Theme';
 const App = () => {
   
   return (
-    <Router>
+    <div>
+    <Router basename='/Blockexplorer'>
       <ThemeProvider> 
       <div className="App">
         <Navbar />
@@ -32,6 +33,7 @@ const App = () => {
       </div>
     </ThemeProvider>
     </Router>
+    </div>
   );
 }
 
