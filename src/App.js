@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './app.css';
-import Navbar from './Components/Navbar/Navbar';
-import Main from './Components/Main/Main';
-import Footer from './Components/Footer/Footer';
-import Bitcoin from './Components/Bitcoin/Bitcoin';
-import Eth from './Components/ETH/Eth';
-import Ltc from './Components/Litecoin/Litecoin';
-import Doge from './Components/Doge/Doge';
-import Bnb from './Components/BNB/Bnb';
+import Navbar from '../src/Components/Navbar/Navbar';
+import Main from '../src/Components/Main/Main';
+import Footer from '../src/Components/Footer/Footer';
+import Bitcoin from '../src/Components/Bitcoin/Bitcoin';
+import Eth from '../src/Components/ETH/Eth';
+import Ltc from '../src/Components/Litecoin/Litecoin';
+import Doge from '../src/Components/Doge/Doge';
+import Bnb from '../src/Components/BNB/Bnb';
 import { ThemeProvider } from '../src/Components/Themecontext/Theme';
 
 
