@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Blockexplorer/static/css/main.7629b3ca.css",
+    "main.css": "/Blockexplorer/static/css/main.5b43a8fc.css",
     "main.js": "/Blockexplorer/static/js/main.199db8bf.js",
     "static/media/doge.svg": "/Blockexplorer/static/media/doge.9008af62aa19dd1b94bb64da00cd926b.svg",
     "static/media/btc.svg": "/Blockexplorer/static/media/btc.e06b2bb24b2e5aa29aec3c0752a182a3.svg",
@@ -8,11 +8,11 @@
     "static/media/eth.svg": "/Blockexplorer/static/media/eth.ace71daa7813e91af2039d60131fdd0a.svg",
     "index.html": "/Blockexplorer/index.html",
     "static/media/ltc.svg": "/Blockexplorer/static/media/ltc.b57c6c617f8b769e72bbed7f8b3ecda7.svg",
-    "main.7629b3ca.css.map": "/Blockexplorer/static/css/main.7629b3ca.css.map",
+    "main.5b43a8fc.css.map": "/Blockexplorer/static/css/main.5b43a8fc.css.map",
     "main.199db8bf.js.map": "/Blockexplorer/static/js/main.199db8bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.7629b3ca.css",
+    "static/css/main.5b43a8fc.css",
     "static/js/main.199db8bf.js"
   ]
 }
